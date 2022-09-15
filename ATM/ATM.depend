@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1663209401 source:c:\codeblocks\atm\cardmodule\card.c
+	"card.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1663209432 c:\codeblocks\atm\cardmodule\card.h
+
+1663210002 source:c:\codeblocks\atm\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Application/Application.h"
+
+1663256694 source:c:\codeblocks\atm\servermodule\server.c
+	"server.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1663209648 source:c:\codeblocks\atm\terminalmodule\terminal.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"terminal.h"
+
+1663209522 c:\codeblocks\atm\servermodule\server.h
+	"../CardModule/card.h"
+	"../TerminalModule/terminal.h"
+
+1663209648 c:\codeblocks\atm\terminalmodule\terminal.h
+	"../CardModule/card.h"
+
+1663209923 source:c:\codeblocks\atm\application\application.c
+	"../ServerModule/server.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"Application.h"
+
+1663209909 c:\codeblocks\atm\application\application.h
+	"../ServerModule/server.h"
+	"../CardModule/card.h"
+	"../TerminalModule/terminal.h"
+
